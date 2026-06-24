@@ -191,7 +191,7 @@ print(api_key[:10] + "...")
 
 ```python
 # Celda 1: Instalar dependencias
-pip install langchain langchain-openai python-dotenv
+!pip install langchain langchain-openai python-dotenv
 ```
 
 2. Selecciona la siguiente celda y edítala con el siguiente código:
@@ -511,12 +511,18 @@ turno_1 = "¿Cuáles son los cuatro componentes básicos de un agente de IA?"
 print(f"\n[Turno 1]")
 print(f"👤 Usuario: {turno_1}")
 
-respuesta_turno_1 = agente_con_memoria.predict(input=turno_1)
+respuesta_turno_1 = agente_con_memoria.invoke(
+    {"input": turno_1},
+    config={"configurable": {"session_id": "usuario1"}}
+)
 print(f"🤖 Agente: {respuesta_turno_1}")
 ```
 
 ```python
 # Celda 16: Turno 2 - El agente debe recordar el turno anterior
+
+# Definir configuración para la sesión
+config = {"configurable": {"session_id": "usuario1"}}
 
 turno_2 = "¿Puedes profundizar en el segundo componente que mencionaste?"
 

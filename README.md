@@ -1,3 +1,5 @@
+<img src="images/neteclogo (2).png" alt="logo" width="300"/>
+
 # Ingeniería de Software con IA y Agentes
 
 Este curso enseña a diseñar y desarrollar agentes inteligentes con Python y frameworks open source, capaces de interpretar instrucciones, consultar fuentes externas y actuar de forma autónoma. Se trabajará con modelos de lenguaje como GPT-4 mediante LangChain (para cadenas de procesamiento y herramientas) y LlamaIndex (para recuperación de información), además de protocolos modernos como (MCP para conectar agentes con APIs y bases de datos.
@@ -32,8 +34,12 @@ Este curso enseña a diseñar y desarrollar agentes inteligentes con Python y fr
   - Descripción: Actividad práctica guiada basada en el contenido del módulo.
   - Duración estimada: 80 min
 
-## Flujo de colaboración
+---
 
-- Trabajar en `changes_course`.
-- Crear Pull Request hacia `main`.
-- Merge por `Squash and merge`.
+## 📬 **Contacto y más información**
+
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). También puedes encontrar más recursos en nuestra [página](https://netec.com).
+
+---
+
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
